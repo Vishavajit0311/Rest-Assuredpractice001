@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.*;
 public class Ex4_DeleteRequest
 {
     @Test
-    public void Tc_PostRequest()
+    public void Tc_deleteRequest()
     {
         given()
                 .contentType("application/json")
@@ -21,3 +21,4 @@ public class Ex4_DeleteRequest
                 .log().all();
     }
 }
+
